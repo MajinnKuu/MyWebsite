@@ -34,3 +34,84 @@ section {
     justify-content: center; /* Horizontal alignment */
     border: 1px solid #ccc; /* Optional: border for visibility */
 }
+/* General Section Styling */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* About Section */
+#about img {
+    margin-top: 1rem;
+}
+
+/* Skills Section */
+.skill-card {
+    display: inline-block;
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Portfolio Projects */
+.project {
+    margin-bottom: 2rem;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+button {
+    padding: 0.7rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Mobile Styles */
+@media (max-width: 600px) {
+    header {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    nav a {
+        margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+    }
+
+    section {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+}
+
+/* Tablet and Up */
+@media (min-width: 601px) {
+    nav {
+        display: flex;
+        justify-content: center; /* Center links in nav */
+    }
+
+    nav a {
+        margin: 0 10px; /* Horizontal margin for desktop */
+    }
+}
+
+
