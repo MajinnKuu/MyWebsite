@@ -19,11 +19,48 @@
     </header>
     
     <!-- Content Sections -->
-    <section id="about"></section>
-    <section id="skills"></section>
-    <section id="portfolio"></section>
-    <section id="contact"></section>
-    <section id="Filler"></section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Kwaku, a computer science student passionate about creative problem-solving, coding, and design. I'm currently building skills in web development and game development.</p>
+        <img src="path/to/your-photo.jpg" alt="Photo of Kwaku" style="width:150px; border-radius:50%;">
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java, HTML, CSS, JavaScript</li>
+            <li><strong>Frameworks:</strong> Bootstrap (basic knowledge)</li>
+            <li><strong>Creative Skills:</strong> Graphic Design, Drawing</li>
+        </ul>
+    </section>    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>2D RPG Game</h3>
+            <p>A game coded in Java, featuring unique character design and story elements.</p>
+            <a href="https://github.com/MajinnKuu/2D-RPG-Game">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Task Manager Web App</h3>
+            <p>A full-stack application built to streamline project management and task organization.</p>
+            <a href="link-to-project">Live Demo</a> | <a href="link-to-github">GitHub</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="your-form-handler-url" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
     <!-- JavaScript File -->
     <script src="script.js" defer></script>
